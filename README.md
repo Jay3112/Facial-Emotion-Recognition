@@ -105,7 +105,6 @@ In case of queary send an email on (pateljay311297@gmail.com)
     * Initial Release
 
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is not licensed.
 
 ## Acknowledgments
