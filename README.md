@@ -59,19 +59,6 @@ RM_Proj_NN.ipynb / RM_Proj_NN.py :
   * Code for ensemble learning for Sobel filtered data and raw data.
   
 Images: This folder includes images of project flow, experiment results, and examples of data.
-
-train_data.npy, train_labels.npy: Contains training image arrays and training label arrays.
-test_data.npy  , test_labels.npy: Contains testing image arrays and testing label arrays.
-
-sobel_train.npy, sobel_test.npy: Contains Sobel filtered training and testing image arrays.
-
-rawdata_vgg16.hdf5: VGG16 model trained on raw data (model architecture and weights).
-rawdata_resnet50.hdf5: ResNet50 model trained on raw data (model architecture and weights).
-rawdata_dense121.hdf5 : DenseNet121 model trained on rawdata (model architecture and weights).
-
-sobel_filt_vgg16.hdf5: VGG16 model trained on Sobel filtered data (model architecture and weights).
-sobel_filt_resnet50.hdf5 : ResNet50 model trained on sobel filtered data (model architecture and weights).
-sobel_filt_dense121.hdf5 : DenseNet121 model trained on sobel filtered data (model architecture and weights).
 ```
 
 ### Executing program
@@ -87,18 +74,6 @@ Method 2 (For local machine):
 * Run RM_Proj_Data_Process.py, RM_Proj_NN.py one by one to execute the whole project in the local machine.
 * **make sure you change all the paths given in code according to your local machine**
 
-Method 3 (For colab/ local machine):
-* If you want to use .npy files which contain already preprocessed data.
-* Download all the .npy files and run RM_Proj_NN.ipynb or RM_Proj_NN.py 
-
-Method 4 (For colab/ local machine):
-* If you need very fast execution you can use .npy files along with .hdf5 files.
-* Download all the .npy and .hdf5 files.
-* Run modeules given below from file RM_Proj_NN.ipynb or RM_Proj_NN.py
-  * Ensemble Learning for Rawdata (ResNet50 + VGG16 + DenseNet121)
-  * Classification report and Confusion Matrix for Raw data
-  * Ensemble Learning for Sobel filtered data (ResNet50 + VGG16 + DenseNet121)
-  * Classification report and Confusion matrix for Sobel filtered data
 
 ### Results
 Accuracy and loss curves, confusion matrix, classification report are availbale in [Result images](Images/) folder.</br>
