@@ -6,7 +6,7 @@ To implement facial emotion recogntion I have used sobel filtering technique for
 
 
 ## Flow of the experiment
-![Flow diagram](/images/logo.png)
+![Flow diagram](/Images/RM_Project_Flowchart.png)
 
 
 ## Getting Started
@@ -30,6 +30,14 @@ To implement facial emotion recogntion I have used sobel filtering technique for
   * Python : version above 3.0
   
 * **If possible use google colab which provides all the dependecies mentined above**
+
+### Dataset
+* I have used FER2013 dataset as it contains real life images taken from videos and news any other sources. It is bit challanging due to occluded images with different light illumination.
+* To download the datatset : https://www.kaggle.com/msambare/fer2013
+
+Some example images from dataset given below</br>
+
+![Example of FER2013 data](/Images/FER-2013.jpg)
 
 ### Menifest
 ```
@@ -62,13 +70,6 @@ sobel_filt_resnet50.hdf5 : ResNet50 model trained on sobel filtered data (model 
 sobel_filt_dense121.hdf5 : DenseNet121 model trained on sobel filtered data (model architecture and weights).
 ```
 
-### Dataset
-* I have used FER2013 dataset as it contains real life images taken from videos and news any other sources. It is bit challanging due to occluded images with different light illumination.
-* To download the datatset : https://www.kaggle.com/msambare/fer2013
-
-![Example of FER2013 data](/images/logo.png)
-
-
 ### Executing program
 
 Method 1 :
@@ -92,6 +93,9 @@ Method 4 :
   * Ensemble Learning for Sobel filtered data (ResNet50 + VGG16 + DenseNet121)
   * Classification report and Confusion matrix for Sobel filtered data
 
+### Results
+Accuracy and loss curves, confusion matrix, classification report are availbale in [Result images](Images/) folder.</br>
+For more information about results [Result images info](Images/image_info.md).
 
 ## Help
 If you are using google colab, low RAM can be the issue. To overcome that, run only one DCNN at a time and to run second DCNN restart the execution kernel. When you complete one run, it will save best trained model weights to your google drive in .hdf5 fromat so, you dont need to execute that part again and again.
