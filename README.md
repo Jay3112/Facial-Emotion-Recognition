@@ -45,14 +45,14 @@ Some example images from the dataset are given below</br>
 
 ### Menifest
 ```
-RM_Proj_Data_Process.ipynb / RM_Proj_Data_Process.py :
+RM_Proj_Data_Process.ipynb / rm_proj_data_process.py :
 
   * Code for .zip file extraction to extract image data from zip file. 
   * Code for retrieving train and test image folders, code for resizing images from 48x48 pixels to 224x224 pixels.
   * Code for applying Sobel filter to resized image. 
   * Code for converting raw images and filtered images into arrays and store in .npy formate.
 
-RM_Proj_NN.ipynb / RM_Proj_NN.py :
+RM_Proj_NN.ipynb / rm_proj_nn.py :
 
   * Code for loading .npy files from drive to load data and labels from the drive.
   * Code for training ResNet50, VGG16, and DesneNet121 models with Sobel filtered data and with raw data also.
@@ -71,7 +71,7 @@ Method 1 (For colab):
 * Download and run RM_Proj_Data_Process.ipynb, RM_Proj_NN.ipynb files one after other which will do all the work for you.
 
 Method 2 (For local machine):
-* Run RM_Proj_Data_Process.py, RM_Proj_NN.py one by one to execute the whole project in the local machine.
+* Run rm_proj_data_process.py, rm_proj_nn.py one by one to execute the whole project in the local machine.
 * **make sure you change all the paths given in code according to your local machine**
 
 
