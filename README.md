@@ -1,7 +1,11 @@
-# Facial-Emotion-Recognition (v1.0)
+# Facial-Emotion-Recognition (v 1.0)
+![GitHub followers](https://img.shields.io/github/followers/Jay3112?style=social)
+![Languages](https://img.shields.io/github/languages/count/Jay3112/Facial-Emotion-Recognition)</br>
 Basically, in this project, I have developed a deep learning model which can recognize basic emotions (such as happiness, sadness, anger, surprise, fear, and disgust) from the human face image.
 
 ## Description
+In the current era, deep learning and computer vision techniques are making human life easier and more comfortable. The development of faster and accurate algorithms made face recognition, object tracking, and many more task faster and easier. Facial emotion recognition(FER) is one of them. Using FER we can detect the mood of any person and that may help us to develop applications such as smart computer interfaces, autonomous driving, health management, and many others.</br>
+
 To implement facial emotion recognition I have used Sobel filtering technique for extracting edge features. Then I have used three deep convolutional neural networks (ResNet50, VGG16, and DenseNet121) for further feature extraction and classification. After getting confidence from three DCNN, average voting (ensemble learning technique) was used and got final results. Using this model I got 66.35% accuracy for Sobel filtered images, and if we pass raw data into the model it can achieve 69.59% accuracy.
 
 
@@ -57,7 +61,7 @@ RM_Proj_NN.ipynb / RM_Proj_NN.py :
 Images: This folder includes images of project flow, experiment results, and examples of data.
 
 train_data.npy, train_labels.npy: Contains training image arrays and training label arrays.
-test_data.npy  , test_labels.npy: Contains testing image arrays and training label arrays.
+test_data.npy  , test_labels.npy: Contains testing image arrays and testing label arrays.
 
 sobel_train.npy, sobel_test.npy: Contains Sobel filtered training and testing image arrays.
 
@@ -111,4 +115,6 @@ In case of query send an email to (pateljay311297@gmail.com)
 ## License
 This project is not licensed.
 
-## Acknowledgments
+## Project status
+The project is completed.</br>
+Still, we can try data augmentation and different networks and features to optimize this model.
