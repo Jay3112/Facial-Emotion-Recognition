@@ -76,19 +76,22 @@ sobel_filt_dense121.hdf5 : DenseNet121 model trained on sobel filtered data (mod
 
 ### Executing program
 
-Method 1 :
-* If the running environment is google colab just make a folder on the drive named "FER2013" and put the downloaded dataset into it.
-* Then download and run RM_Proj_Data_Process.ipynb, RM_Proj_NN.ipynb files one after other which will do all the work for you.
+Downloaded dataset from given link.</br>
+*If using local machine download libraries given in dependencies.*</br>
+*If the running environment is google colab just make a folder on the drive named "FER2013" and put the downloaded dataset into it.*
 
-Method 2 :
-* If using local machine download Open CV and then run RM_Proj_Data_Process.py, RM_Proj_NN.py one by one.
+Method 1 (For colab):
+* Download and run RM_Proj_Data_Process.ipynb, RM_Proj_NN.ipynb files one after other which will do all the work for you.
+
+Method 2 (For local machine):
+* Run RM_Proj_Data_Process.py, RM_Proj_NN.py one by one to execute the whole project in the local machine.
 * **make sure you change all the paths given in code according to your local machine**
 
-Method 3 :
+Method 3 (For colab/ local machine):
 * If you want to use .npy files which contain already preprocessed data.
 * Download all the .npy files and run RM_Proj_NN.ipynb or RM_Proj_NN.py 
 
-Method 4 :
+Method 4 (For colab/ local machine):
 * If you need very fast execution you can use .npy files along with .hdf5 files.
 * Download all the .npy and .hdf5 files.
 * Run modeules given below from file RM_Proj_NN.ipynb or RM_Proj_NN.py
