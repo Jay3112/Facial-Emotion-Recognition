@@ -87,8 +87,8 @@ Jay Patel<br/>
 In case of query send an email to (pateljay311297@gmail.com)
 
 ## Version History
-* 0.1
-    * Initial Release
+* 1.0
+    * Final Release
 
 ## License
 This project is not licensed.
