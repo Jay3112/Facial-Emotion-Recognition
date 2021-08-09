@@ -43,7 +43,7 @@ Some example images from the dataset are given below</br>
 
 ![Example of FER2013 data](/Images/FER-2013.jpg)
 
-### Menifest
+### Manifest
 ```
 RM_Proj_Data_Process.ipynb / rm_proj_data_process.py :
 
